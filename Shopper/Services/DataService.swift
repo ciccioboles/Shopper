@@ -15,7 +15,12 @@ class DataService {
         Category(title: "Shirts", imageName: "shirts.png"),
         Category(title: "Hoodies", imageName: "hoodies.png"),
         Category(title: "Hats", imageName: "hats.png"),
+        Category(title: "Digital", imageName: "digital.png"),
+        Category(title: "Shirts", imageName: "shirts.png"),
+        Category(title: "Hoodies", imageName: "hoodies.png"),
+        Category(title: "Hats", imageName: "hats.png"),
         Category(title: "Digital", imageName: "digital.png")
+
     ]
     
     func getCategories() -> [Category] {
