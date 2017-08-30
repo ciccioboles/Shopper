@@ -10,6 +10,7 @@ import Foundation
 
 
 struct Category {
+    
     private(set) var title: String
     private(set) var imageName: String
     
