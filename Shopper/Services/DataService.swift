@@ -28,7 +28,10 @@ class DataService {
         
         Product(title: "Store Styled  Beanie", price: "$20", imageName: "hat01.png"),
         Product(title: "Logo Styled Big Hat", price: "$32", imageName: "hat02.png"),
-        Product(title: "Snap Back Logo Hat", price: "$13", imageName: "hat.03")
+        Product(title: "Snap Back Logo Hat", price: "$13", imageName: "hat03.png"),
+        Product(title: "Store Styled  Beanie", price: "$20", imageName: "hat01.png"),
+        Product(title: "Logo Styled Big Hat", price: "$32", imageName: "hat02.png"),
+        Product(title: "Snap Back Logo Hat", price: "$13", imageName: "hat03.png")
     ]
     
     private let hoodies = [
@@ -68,7 +71,7 @@ class DataService {
             return getDigitalGoods()
             
         default:
-            <#code#>
+            return getShirts()
         }
         
     }
@@ -88,13 +91,6 @@ class DataService {
     func getDigitalGoods() -> [Product] {
         return digitalGoods
     }
-    
-    
-    
-    
-    
-    
-    
-    
+
     
 }
